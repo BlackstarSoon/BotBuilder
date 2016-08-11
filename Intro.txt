@@ -1,0 +1,4 @@
+Name	: Soon Wei Liang
+ID	: 1405051
+Subject	: UECS2363 Software Construction and Configuration
+Title	: SCC Group Project
