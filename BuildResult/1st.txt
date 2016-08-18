@@ -1,0 +1,22 @@
+Started by user weiliang
+Building in workspace C:\Program Files (x86)\Jenkins\jobs\BotBuilder\workspace
+Cloning the remote Git repository
+Cloning repository https://github.com/BlackstarSoon/BotBuilder.git
+ > git.exe init C:\Program Files (x86)\Jenkins\jobs\BotBuilder\workspace # timeout=10
+Fetching upstream changes from https://github.com/BlackstarSoon/BotBuilder.git
+ > git.exe --version # timeout=10
+Setting http proxy: proxy2.utar.edu.my:8080
+ > git.exe -c core.askpass=true fetch --tags --progress https://github.com/BlackstarSoon/BotBuilder.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/BlackstarSoon/BotBuilder.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/BlackstarSoon/BotBuilder.git # timeout=10
+Fetching upstream changes from https://github.com/BlackstarSoon/BotBuilder.git
+Setting http proxy: proxy2.utar.edu.my:8080
+ > git.exe -c core.askpass=true fetch --tags --progress https://github.com/BlackstarSoon/BotBuilder.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 084796067199c1562f14a2b1dbf0d069a2ee8f2c (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 084796067199c1562f14a2b1dbf0d069a2ee8f2c
+First time build. Skipping changelog.
+Finished: SUCCESS
